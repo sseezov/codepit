@@ -1,0 +1,27 @@
+.Dialogs {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+}
+
+.DialogItems {
+}
+
+.DialogItems .active {
+  color: rgb(231, 215, 120);
+}
+
+.DialogItem {
+}
+
+.Messages {
+}
+
+.Message {
+}
+
+.messageHistory {
+  background-color: azure;
+  border-color: blueviolet;
+  border-radius: 10%;
+  width: 200px;
+}

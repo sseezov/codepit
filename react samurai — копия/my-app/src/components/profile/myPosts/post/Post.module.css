@@ -1,0 +1,15 @@
+.Post {
+  color: black;
+  font-size: 16px;
+  display: flex;
+  margin: 5px;
+}
+
+.PostPic {
+  width: 30px;
+  border-radius: 15%;
+}
+
+.PostInterface {
+  display: flex;
+}

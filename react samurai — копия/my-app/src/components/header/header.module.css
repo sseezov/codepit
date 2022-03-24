@@ -1,0 +1,13 @@
+.imgLogo {
+  height: 80px;
+}
+
+.header {
+  grid-area: header;
+  background-color: cadetblue;
+}
+
+.loginBlock {
+  background-color: rgb(161, 241, 168);
+  width: 200px;
+}

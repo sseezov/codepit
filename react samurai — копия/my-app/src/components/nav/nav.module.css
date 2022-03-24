@@ -1,0 +1,20 @@
+.nav {
+  background-color: rgb(100, 219, 179);
+  grid-area: nav;
+  margin: 0px;
+}
+
+.item {
+  color: rgb(71, 148, 216);
+}
+
+.item a.active {
+  color: rgb(245, 230, 148);
+}
+
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style-type: none;
+}

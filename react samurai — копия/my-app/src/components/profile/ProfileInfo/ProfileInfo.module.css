@@ -1,0 +1,30 @@
+.mainHeader {
+  height: 200px;
+  grid-area: main;
+  background-color: aliceblue;
+}
+
+.imgMain {
+  height: 200px;
+}
+
+.userSection {
+  display: grid;
+  grid-template-areas:
+    "main main"
+    "userPic userInfo";
+
+  grid-template-columns: 2fr 10fr;
+}
+
+.userPicture {
+  grid-area: userPic;
+}
+
+.userPicturePic {
+  width: 100px;
+}
+
+.userInfo {
+  grid-area: userInfo;
+}

@@ -1,0 +1,14 @@
+.appWrapper {
+  display: grid;
+  width: 1200px;
+
+  grid-template-areas:
+    "header header"
+    "nav main";
+  grid-template-rows: 120px 1fr;
+  grid-template-columns: 2fr 10fr;
+  /* grid-gap: 20px; */
+}
+.main {
+  background-color: rgb(207, 231, 231);
+}
